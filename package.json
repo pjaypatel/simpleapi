@@ -1,0 +1,28 @@
+{
+  "name": "simpleapi",
+  "version": "1.0.0",
+  "description": "Basic API with CRUD capabilities to manipulate a database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjpatel12/simpleapi.git"
+  },
+  "keywords": [
+    "sqlite"
+  ],
+  "author": "Pranay Jay Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjpatel12/simpleapi/issues"
+  },
+  "homepage": "https://github.com/pjpatel12/simpleapi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.2.1",
+    "sqlite3": "^4.2.0"
+  }
+}
